@@ -1,0 +1,13 @@
+### 초기화 요청 (유저 + 카테고리 생성)
+POST http://localhost:8080/api/dev/init
+### Todo 추가 요청
+POST http://localhost:8080/api/todos
+Content-Type: application/json
+
+{
+  "content": "JPA 복습하기",
+  "isCompleted": false,
+  "date": "2025-05-20",
+  "userId": 1,
+  "categoryId": 1
+}
