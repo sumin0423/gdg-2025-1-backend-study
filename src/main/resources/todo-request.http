@@ -1,0 +1,14 @@
+### 초기화 요청
+POST http://localhost:8080/api/dev/init
+
+### Todo 생성 요청
+POST http://localhost:8080/api/todos
+Content-Type: application/json
+
+{
+  "content": "JPA 복습하기",
+  "isCompleted": false,
+  "date": "2025-05-27",
+  "userId": 1,
+  "categoryId": 1
+}
